@@ -8,7 +8,7 @@
     <h1>Games : </h1>
     <div>
         @foreach($games as $game)
-            <li>{{$game->name}}</li>
+            <li>{{$game->name}} dev by {{ $game->developper->name }}</li>
         @endforeach
     </div>
 </div>

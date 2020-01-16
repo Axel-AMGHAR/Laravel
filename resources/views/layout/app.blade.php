@@ -32,6 +32,6 @@
 <body>
     @include('layout.navigation')
     <div class="container">
-        @yield('content');
+        @yield('content')
     </div>
 </body>
