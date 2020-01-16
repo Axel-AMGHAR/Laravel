@@ -14,6 +14,7 @@ class CreateGamePlatformTable extends Migration
     public function up()
     {
         Schema::create('game_platform', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->unsignedBigInteger('game_id');
             $table->foreign('game_id')->references('id')->on('games');
 

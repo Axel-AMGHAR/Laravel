@@ -9,7 +9,7 @@
                     Jeux développés par {{$deveopper->name}} :
                     <ul>
                         @foreach($deveopper->games as $game)
-                        <li>{{ $game->name }} dispo sur
+                            <li><a href="{{ route('game_details', ['games_id'=> $game->id]) }}">{{ $game->name }}</a> dispo sur
                             {{ $game->platforms->pluck('name')->implode(', ') }}
                         </li>
                         @endforeach

@@ -14,6 +14,7 @@ class CreateDeveloppersTable extends Migration
     public function up()
     {
         Schema::create('developpers', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->bigIncrements('id');
             $table->string('name');
             $table->timestamps();

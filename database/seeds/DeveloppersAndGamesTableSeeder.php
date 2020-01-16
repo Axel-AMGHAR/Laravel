@@ -42,19 +42,19 @@ class DeveloppersAndGamesTableSeeder extends Seeder
                 'developper_id' => $idGearBox
             ]);
 
-            for ($i = 0; $i < 3; $i++) {
+            for ($i = 1; $i <= 3; $i++) {
                 DB::table('game_platform')->insert([
                     'game_id' => $idMinecraft,
                     'platform_id' => $i
                 ]);
             }
-            for ($i = 0; $i < 3; $i++) {
+            for ($i = 1; $i <= 3; $i++) {
                 DB::table('game_platform')->insert([
                     'game_id' => $idAssassinsCreed,
                     'platform_id' => $i
                 ]);
             }
-            for ($i = 0; $i < 3; $i++) {
+            for ($i = 1; $i <= 3; $i++) {
                 DB::table('game_platform')->insert([
                     'game_id' => $idBorderlands3,
                     'platform_id' => $i
