@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6037c726-1038-4e2a-aa95-184c2200c2e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/toDo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/419.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/game_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GamesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GamesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_09_111116_create_developpers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_09_111116_create_developpers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_09_120209_create_games_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_09_120209_create_games_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_09_131735_create_platforms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_09_131735_create_platforms_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_09_132038_create_game_platform_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_09_132038_create_game_platform_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DeveloppersAndGamesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DeveloppersAndGamesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/developper.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/developper.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/game_details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/game_details.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="6037c726-1038-4e2a-aa95-184c2200c2e3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578565446272</updated>
       <workItem from="1578565447383" duration="10216000" />
-      <workItem from="1579162832473" duration="15741000" />
+      <workItem from="1579162832473" duration="15799000" />
     </task>
     <servers />
   </component>
