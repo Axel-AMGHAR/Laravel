@@ -9,7 +9,9 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use Notifiable;
-
+    const ROLE_USER = 1;
+    const ROLE_RESP = 2;
+    const ROLE_ADMIN = 3;
     /**
      * The attributes that are mass assignable.
      *

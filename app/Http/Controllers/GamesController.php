@@ -29,14 +29,42 @@ class GamesController extends Controller
             'physical_release' => 'boolean',
             'developper_id' => 'required|exists:developpers,id'
         ]);
-        $game = new Game();
+
+        $game = Game::create($request->all());
+
+
+        //modifier des données
+
+        /*
+        $data = nouvelles donnees
+        $game->fill($data);
+        $game->save();
+        */
+
+
+        // Méthode longue sans mettre guarded dans le model
+/*        $game = new Game();
         $game->name = $request->input('name');
         $game->pegi = $request->input('pegi');
         $game->developper_id = $request->input('developper_id');
         $game->physical_release = $request->filled('physical_release');
 
-        $game->save();
+        $game->save();*/
 
+
+/*        $developper = Developper::find($request->input('developper_id'));
+        $game->developper()->associate($developper);*/
+
+    /*
+     *      relation n:n
+     *      foreach ($game->platforms as $platform){
+            $platform->pivot->
+        }*/
+
+        /*
+         * $game->platforms()->sync([2,3]);
+         * ajoute des platformes
+         */
         return redirect()->back();
     }
 }

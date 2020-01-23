@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use App\Developper;
 use App\Game;
 use Illuminate\Http\Request;
@@ -30,6 +31,21 @@ class PageController extends Controller
 
         return view('pages.developper', [
             'developpers' => $developpers
+        ]);
+    }
+
+    public function users(){
+
+        $users = User::get();
+        return view('pages.users',[
+            'users'=> $users,
+        ]);
+    }
+    public function users_param($page = 1){
+
+        $users = User::paginate(10);
+        return view('pages.users',[
+            'users'=> $users,
         ]);
     }
 }
