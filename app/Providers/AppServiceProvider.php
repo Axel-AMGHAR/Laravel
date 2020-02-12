@@ -32,6 +32,9 @@ class AppServiceProvider extends ServiceProvider
         Blade::if('isClient', function (){
             return \Auth::check() && \Auth::user()->role == 1;
         });
+        Blade::if('isAdmin', function (){
+            return \Auth::check() && \Auth::user()->role == 3;
+        });
         $pro_users_count = Cache::remember('pro_users_count', 60*60,function() {
             return \App\User::where('role', 2)->count();
         });

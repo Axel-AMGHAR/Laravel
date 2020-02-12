@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Rights;
 use App\User;
 use App\Developper;
 use App\Game;
@@ -10,6 +11,14 @@ use Illuminate\Support\Facades\DB;
 
 class PageController extends Controller
 {
+
+    public function test(){
+        $user_id = User::select('id')->where('id', 103)->first();
+        $permTab = ['del.structure', 'add.user'];
+        $perm = 'add.uer';
+        $role = 'responsable';
+        echo 'Res : ' . json_encode(Rights::authCanAtLeast($permTab));
+    }
 
     public function  hello(){
         echo 'hello world';
@@ -28,7 +37,7 @@ class PageController extends Controller
         $developpers = Developper::with('games.platforms')
             ->has('games')
             ->get();
-
+        dd($developpers);
         return view('pages.developper', [
             'developpers' => $developpers
         ]);

@@ -8,19 +8,19 @@
                     <div class="card-header">Dashboard</div>
 
                     <div class="card-body">
+                        @isClient
+                        <div>User</div>
+                        @endisClient
+                        @isAdmin
+                        <div>admin</div>
+                        @endisAdmin
+                        @auth
+                            {{ Auth::user()->prenom }}
+                        @endauth
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">
                                 {{ session('status') }}
                             </div>
-                        @endif
-                        @auth
-                            je suis co {{ Auth::user() }}
-                            {{ Auth::user()->name }}
-                        @elseauth
-                            je suis pas co
-                        @endauth
-                        @if (Auth::user()->role == 1)
-                            <br/> vous etes un client
                         @endif
                     </div>
                 </div>

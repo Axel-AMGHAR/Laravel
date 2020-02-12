@@ -19,3 +19,5 @@ Route::get('/test_user', function () {
 })->middleware('auth');
 Route::get('/test_resp', function () { return 'reserved to resp'; })->middleware('auth');
 Route::get('/test_admin', function () { return 'reserved to admin'; })->middleware('is_admin');
+
+Route::get('/test','PageController@test');
