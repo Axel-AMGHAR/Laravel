@@ -91,6 +91,6 @@ class Rights
 
     public static function authCanAtLeast($permissions_names)
     {
-        return self ::canAtLeast(Auth::user()->id, $permissions_names);
+        return self::canAtLeast(Auth::user()->id, $permissions_names);
     }
 }
