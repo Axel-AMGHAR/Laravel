@@ -11,10 +11,6 @@ use phpDocumentor\Reflection\Types\This;
 
 class Rights
 {
-    /* A améliorer
-    * eviter la duplication du code    *
-     * */
-
     /*
      *      L'utilisateur d'id $user_id possède-t-il le rôle $role_name ?
      *

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6037c726-1038-4e2a-aa95-184c2200c2e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Permission.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Rights.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_06_100213_create_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_06_100214_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_06_100422_create_role_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_12_140132_create_permission_role_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/PermissionsTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Developper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Developper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
@@ -176,7 +183,7 @@
       <workItem from="1579162832473" duration="15799000" />
       <workItem from="1579767021259" duration="33802000" />
       <workItem from="1580977191384" duration="9388000" />
-      <workItem from="1581494667865" duration="14609000" />
+      <workItem from="1581494667865" duration="14730000" />
     </task>
     <servers />
   </component>
