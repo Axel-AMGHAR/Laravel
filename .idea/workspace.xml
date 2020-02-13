@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6037c726-1038-4e2a-aa95-184c2200c2e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Rights.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rights.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +170,7 @@
       <workItem from="1579767021259" duration="33802000" />
       <workItem from="1580977191384" duration="9388000" />
       <workItem from="1581494667865" duration="14975000" />
-      <workItem from="1581535968038" duration="536000" />
+      <workItem from="1581535968038" duration="5582000" />
     </task>
     <servers />
   </component>
@@ -194,6 +195,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="542" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1579767808143" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581579519056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581579519056" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1580977336916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -206,9 +211,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1579785700845" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1581523679647">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1581579548387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581523679647" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581579548387" />
   </component>
 </project>

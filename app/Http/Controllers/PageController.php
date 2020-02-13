@@ -7,15 +7,17 @@ use App\User;
 use App\Developper;
 use App\Game;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Cache;
+
 
 class PageController extends Controller
 {
 
     public function test(){
-        $user_id = User::select('id')->where('id', 103)->first();
         $permTab = ['del.structure', 'add.user'];
-        $perm = 'add.uer';
+        $perm = 'add.user';
         $role = 'responsable';
         echo 'Res : ' . json_encode(Rights::authCanAtLeast($permTab));
     }
