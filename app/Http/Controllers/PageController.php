@@ -19,7 +19,7 @@ class PageController extends Controller
         $permTab = ['del.structure', 'add.user'];
         $perm = 'add.user';
         $role = 'responsable';
-        echo 'Res : ' . json_encode(Rights::authCanAtLeast($permTab));
+        echo 'Res : ' . json_encode(Rights::authCan($perm));
     }
 
     public function  hello(){

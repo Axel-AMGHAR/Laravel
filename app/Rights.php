@@ -23,7 +23,7 @@ class Rights
             return Cache::get($id);
         else {
             $get_id = User::select('id')->where('id', $id)->first()->id;
-             Cache::put($id,$get_id,now()->addMinutes(120));
+             Cache::put($id,$get_id,now()->addMinutes(10));
              return $get_id;
         }
     }
@@ -37,7 +37,7 @@ class Rights
         if (Cache::has('auth'))
             return Cache::get('auth');
         else {
-             Cache::put('auth',Auth::user()->id,now()->addMinutes(120));
+             Cache::put('auth',Auth::user()->id,now()->addMinutes(10));
              return Auth::user()->id;
         }
     }
@@ -52,8 +52,8 @@ class Rights
             return Cache::get('role_perm'.$user_id);
         else {
             $roles_perms = User::with('roles.permissions')->find($user_id);
-            Cache::put('role_perm'.$user_id,$roles_perms,now()->addMinutes(120));
-            return$roles_perms;
+            Cache::put('role_perm'.$user_id,$roles_perms,now()->addMinutes(10));
+            return $roles_perms;
         }
     }
 
