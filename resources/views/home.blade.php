@@ -9,7 +9,7 @@
 
                     <div class="card-body">
                         @isClient
-                        <div>User</div>
+                        <div>Usera</div>
                         @endisClient
                         @isAdmin
                         <div>admin</div>

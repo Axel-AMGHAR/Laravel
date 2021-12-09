@@ -32,7 +32,6 @@ class GamesController extends Controller
 
         $game = Game::create($request->all());
 
-
         //modifier des données
 
         /*
